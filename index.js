@@ -16,7 +16,6 @@ bot.on('ready', () =>{
     game1();
   });
 
-  js
   bot.on('guildMemberAdd', member =>{
       const channel = member.guild.channels.cache.find(channel => channel.name === '╭・chat');
       const welcomeEmbed = {
