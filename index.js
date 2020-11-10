@@ -22,6 +22,9 @@ bot.on('ready', () =>{
           color: 0x2F3136,
           title: `**welcome ${member.displayName}**`,
           description: 'check out\n・<#775530074030997514>\n・<#775530144693616690>\n・<#775532056456855582>\n・<#775451538059034637>\nto get started <:honey_hj:775473481386950676> ',
+          thumbnail: {
+            url: 'https://media.discordapp.net/attachments/775451538059034637/775865883037007922/image0.jpg?width=589&height=586'
+          },
           footer: {
               text: 'xoxo'
           },
