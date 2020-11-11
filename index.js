@@ -12,7 +12,7 @@ function game2(){
 };
 
 bot.on('ready', () =>{
-    console.log('honey is online!');
+    console.log('honey is so tastyy!');
     game1();
   });
 
