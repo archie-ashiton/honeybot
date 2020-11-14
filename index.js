@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+const prefix = ',';
 
 function game1(){
   bot.user.setActivity('over honey', {type: 'WATCHING'});
